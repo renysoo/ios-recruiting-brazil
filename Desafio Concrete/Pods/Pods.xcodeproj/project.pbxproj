@@ -1,0 +1,868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0EF8E5073E80BF8F11F3493BE68B3CA2 /* Pods-Desafio Concrete-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A248AD57D5878C2A2D71434F4F1908E /* Pods-Desafio Concrete-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		106B29097F88A307D85D08D71405CB5E /* Pods-Desafio Concrete-Desafio ConcreteUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F28B64793712C9903E1332C398872B /* Pods-Desafio Concrete-Desafio ConcreteUITests-dummy.m */; };
+		1251D2A848D53D3C146EA4F2E8956952 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5603334A52A38CDD5D250C1F26FE54AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5D9D0F74D01FC1EBD31B93ECF872DC66 /* Pods-Desafio Concrete-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B015D514F4D2BD4FE4511FDEA4FAFDC /* Pods-Desafio Concrete-dummy.m */; };
+		C145DEB4371004CC2D7ABBD43E213A12 /* Pods-Desafio Concrete-Desafio ConcreteUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F17A65E2F45A6A3897CEA1EB3805E8 /* Pods-Desafio Concrete-Desafio ConcreteUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F680204F955A0B3763CB34B81EB19BCC /* Pods-Desafio ConcreteTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D120B2F05E5762D8F2835F26647A2DE /* Pods-Desafio ConcreteTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA1F3353A2C715A016918A1350933658 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FD649CC3BEAE129CC2E0A104EEAD74CE /* Pods-Desafio ConcreteTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBACF3DE842118164C76D9E1CA2074E /* Pods-Desafio ConcreteTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		829E4983C14FFC24D91455505CD2DCC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		9C5A03DA8F3F14591E186FEBB0289B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		B227E8505A8149A783DB4AB0409FD0CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD5459CDA9B1EEE723464D5992ED12B7;
+			remoteInfo = "Pods-Desafio Concrete";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F17A65E2F45A6A3897CEA1EB3805E8 /* Pods-Desafio Concrete-Desafio ConcreteUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Desafio Concrete-Desafio ConcreteUITests-umbrella.h"; sourceTree = "<group>"; };
+		09C5385DD455FFF95423686AAB96798A /* Pods-Desafio Concrete-Desafio ConcreteUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Desafio Concrete-Desafio ConcreteUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B015D514F4D2BD4FE4511FDEA4FAFDC /* Pods-Desafio Concrete-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Desafio Concrete-dummy.m"; sourceTree = "<group>"; };
+		0D120B2F05E5762D8F2835F26647A2DE /* Pods-Desafio ConcreteTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Desafio ConcreteTests-umbrella.h"; sourceTree = "<group>"; };
+		1B88DE9C612B47C7111BC5B59BBD479B /* Pods-Desafio Concrete-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Desafio Concrete-Info.plist"; sourceTree = "<group>"; };
+		1FF43376C9747DD591D40401CF873194 /* Pods-Desafio ConcreteTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Desafio ConcreteTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		28F87D483BBDBA715432A96A6DA8FA00 /* Pods-Desafio Concrete-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Desafio Concrete-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A248AD57D5878C2A2D71434F4F1908E /* Pods-Desafio Concrete-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Desafio Concrete-umbrella.h"; sourceTree = "<group>"; };
+		2B4EE888A3C2AF9884A040D849DEBD15 /* Pods_Desafio_Concrete_Desafio_ConcreteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Desafio_Concrete_Desafio_ConcreteUITests.framework; path = "Pods-Desafio Concrete-Desafio ConcreteUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		322639A23AC1977E9762457110447D72 /* Pods-Desafio Concrete.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Desafio Concrete.modulemap"; sourceTree = "<group>"; };
+		4A0C45BE74EFE131E4B2A504651A5885 /* Pods-Desafio Concrete-Desafio ConcreteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Desafio Concrete-Desafio ConcreteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		53F28B64793712C9903E1332C398872B /* Pods-Desafio Concrete-Desafio ConcreteUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Desafio Concrete-Desafio ConcreteUITests-dummy.m"; sourceTree = "<group>"; };
+		5D7AA9FAC2FC3F7978A66AE110814DFF /* Pods-Desafio Concrete-Desafio ConcreteUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Desafio Concrete-Desafio ConcreteUITests-Info.plist"; sourceTree = "<group>"; };
+		62D3F39ACC4A496E2732321BE07DBBA8 /* Pods-Desafio ConcreteTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Desafio ConcreteTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6E29533B962238268DD86D11E2A1D1D1 /* Pods-Desafio Concrete.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Desafio Concrete.release.xcconfig"; sourceTree = "<group>"; };
+		75823FA099C2AC2DAD110C10DF77D72E /* Pods-Desafio ConcreteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Desafio ConcreteTests.release.xcconfig"; sourceTree = "<group>"; };
+		7862CD4887205A905E06ABDBFAFB7F6D /* Pods-Desafio Concrete-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Desafio Concrete-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
+		8BC14294F9669604C54C156FFE1FF3F2 /* Pods-Desafio ConcreteTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Desafio ConcreteTests-Info.plist"; sourceTree = "<group>"; };
+		8F86D68B36A6A242523470252A42B3D6 /* Pods-Desafio Concrete-Desafio ConcreteUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Desafio Concrete-Desafio ConcreteUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADBACF3DE842118164C76D9E1CA2074E /* Pods-Desafio ConcreteTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Desafio ConcreteTests-dummy.m"; sourceTree = "<group>"; };
+		B2A75BF8B18D17E8B54EF4D3A19E094E /* Pods-Desafio ConcreteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Desafio ConcreteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7EB18D1B2E299231CCB37BD03F7756B /* Pods-Desafio Concrete-Desafio ConcreteUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Desafio Concrete-Desafio ConcreteUITests.modulemap"; sourceTree = "<group>"; };
+		BE6BB573B66C949CAFF8BBF20FB11B16 /* Pods_Desafio_Concrete.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Desafio_Concrete.framework; path = "Pods-Desafio Concrete.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA4AAB2D44980705C0C11276FF73B232 /* Pods-Desafio Concrete-Desafio ConcreteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Desafio Concrete-Desafio ConcreteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E136A5A59AC3E9F5723C92208FE39AA9 /* Pods-Desafio Concrete.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Desafio Concrete.debug.xcconfig"; sourceTree = "<group>"; };
+		E9024EACD78DE75C3A0EBBF9C43B1FE6 /* Pods-Desafio ConcreteTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Desafio ConcreteTests.modulemap"; sourceTree = "<group>"; };
+		FDA936ECF9C2054A87C0D8E6D0F3FCF7 /* Pods_Desafio_ConcreteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Desafio_ConcreteTests.framework; path = "Pods-Desafio ConcreteTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		939010F7008D429B32ED4C363A3AB9F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1F3353A2C715A016918A1350933658 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4E302F2671148541C815A282F5D3EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5603334A52A38CDD5D250C1F26FE54AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7A7CED8E09AF19582270E35FBBC641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1251D2A848D53D3C146EA4F2E8956952 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32B31655C436AD158272754C1E1416C0 /* Pods-Desafio Concrete-Desafio ConcreteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7EB18D1B2E299231CCB37BD03F7756B /* Pods-Desafio Concrete-Desafio ConcreteUITests.modulemap */,
+				09C5385DD455FFF95423686AAB96798A /* Pods-Desafio Concrete-Desafio ConcreteUITests-acknowledgements.markdown */,
+				8F86D68B36A6A242523470252A42B3D6 /* Pods-Desafio Concrete-Desafio ConcreteUITests-acknowledgements.plist */,
+				53F28B64793712C9903E1332C398872B /* Pods-Desafio Concrete-Desafio ConcreteUITests-dummy.m */,
+				5D7AA9FAC2FC3F7978A66AE110814DFF /* Pods-Desafio Concrete-Desafio ConcreteUITests-Info.plist */,
+				03F17A65E2F45A6A3897CEA1EB3805E8 /* Pods-Desafio Concrete-Desafio ConcreteUITests-umbrella.h */,
+				CA4AAB2D44980705C0C11276FF73B232 /* Pods-Desafio Concrete-Desafio ConcreteUITests.debug.xcconfig */,
+				4A0C45BE74EFE131E4B2A504651A5885 /* Pods-Desafio Concrete-Desafio ConcreteUITests.release.xcconfig */,
+			);
+			name = "Pods-Desafio Concrete-Desafio ConcreteUITests";
+			path = "Target Support Files/Pods-Desafio Concrete-Desafio ConcreteUITests";
+			sourceTree = "<group>";
+		};
+		3E9BC046BF0028F0458ED9489C645788 /* Pods-Desafio ConcreteTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9024EACD78DE75C3A0EBBF9C43B1FE6 /* Pods-Desafio ConcreteTests.modulemap */,
+				62D3F39ACC4A496E2732321BE07DBBA8 /* Pods-Desafio ConcreteTests-acknowledgements.markdown */,
+				1FF43376C9747DD591D40401CF873194 /* Pods-Desafio ConcreteTests-acknowledgements.plist */,
+				ADBACF3DE842118164C76D9E1CA2074E /* Pods-Desafio ConcreteTests-dummy.m */,
+				8BC14294F9669604C54C156FFE1FF3F2 /* Pods-Desafio ConcreteTests-Info.plist */,
+				0D120B2F05E5762D8F2835F26647A2DE /* Pods-Desafio ConcreteTests-umbrella.h */,
+				B2A75BF8B18D17E8B54EF4D3A19E094E /* Pods-Desafio ConcreteTests.debug.xcconfig */,
+				75823FA099C2AC2DAD110C10DF77D72E /* Pods-Desafio ConcreteTests.release.xcconfig */,
+			);
+			name = "Pods-Desafio ConcreteTests";
+			path = "Target Support Files/Pods-Desafio ConcreteTests";
+			sourceTree = "<group>";
+		};
+		8BECD82A2CBCFF1DD218A95048C245B4 /* Pods-Desafio Concrete */ = {
+			isa = PBXGroup;
+			children = (
+				322639A23AC1977E9762457110447D72 /* Pods-Desafio Concrete.modulemap */,
+				7862CD4887205A905E06ABDBFAFB7F6D /* Pods-Desafio Concrete-acknowledgements.markdown */,
+				28F87D483BBDBA715432A96A6DA8FA00 /* Pods-Desafio Concrete-acknowledgements.plist */,
+				0B015D514F4D2BD4FE4511FDEA4FAFDC /* Pods-Desafio Concrete-dummy.m */,
+				1B88DE9C612B47C7111BC5B59BBD479B /* Pods-Desafio Concrete-Info.plist */,
+				2A248AD57D5878C2A2D71434F4F1908E /* Pods-Desafio Concrete-umbrella.h */,
+				E136A5A59AC3E9F5723C92208FE39AA9 /* Pods-Desafio Concrete.debug.xcconfig */,
+				6E29533B962238268DD86D11E2A1D1D1 /* Pods-Desafio Concrete.release.xcconfig */,
+			);
+			name = "Pods-Desafio Concrete";
+			path = "Target Support Files/Pods-Desafio Concrete";
+			sourceTree = "<group>";
+		};
+		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AED61B9A1CFA211C061344F741DBA07 /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9AED61B9A1CFA211C061344F741DBA07 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				EEA599FE5C15138FF0981CCFB01E55AA /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		9F52EB3AA2CF91392F6B690FC35B49F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE6BB573B66C949CAFF8BBF20FB11B16 /* Pods_Desafio_Concrete.framework */,
+				2B4EE888A3C2AF9884A040D849DEBD15 /* Pods_Desafio_Concrete_Desafio_ConcreteUITests.framework */,
+				FDA936ECF9C2054A87C0D8E6D0F3FCF7 /* Pods_Desafio_ConcreteTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				965877409E01FB3D85D85E90E6B30185 /* Pods */,
+				9F52EB3AA2CF91392F6B690FC35B49F6 /* Products */,
+				FB6AFF96A9C04BE8AF7CE71B5E5AE0C5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEA599FE5C15138FF0981CCFB01E55AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		FB6AFF96A9C04BE8AF7CE71B5E5AE0C5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BECD82A2CBCFF1DD218A95048C245B4 /* Pods-Desafio Concrete */,
+				32B31655C436AD158272754C1E1416C0 /* Pods-Desafio Concrete-Desafio ConcreteUITests */,
+				3E9BC046BF0028F0458ED9489C645788 /* Pods-Desafio ConcreteTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0007C3199928010F83E077B6F75CA948 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF8E5073E80BF8F11F3493BE68B3CA2 /* Pods-Desafio Concrete-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E9D4F065CA334F751181F8D145E7481 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C145DEB4371004CC2D7ABBD43E213A12 /* Pods-Desafio Concrete-Desafio ConcreteUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8A7D7E0F9D1523FF79704336738DB65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F680204F955A0B3763CB34B81EB19BCC /* Pods-Desafio ConcreteTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5A3074DCDBB05F532393F8F3940BCDFD /* Pods-Desafio ConcreteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6D3958A0D4237F4A740B74203B57D9 /* Build configuration list for PBXNativeTarget "Pods-Desafio ConcreteTests" */;
+			buildPhases = (
+				A8A7D7E0F9D1523FF79704336738DB65 /* Headers */,
+				4039E0215E676CB7FC488C1940772DD2 /* Sources */,
+				DC4E302F2671148541C815A282F5D3EE /* Frameworks */,
+				B54C517464561B44495AEC1E45481E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BBBA297FCA7372DA5F32DAFCEFF3D34 /* PBXTargetDependency */,
+			);
+			name = "Pods-Desafio ConcreteTests";
+			productName = "Pods-Desafio ConcreteTests";
+			productReference = FDA936ECF9C2054A87C0D8E6D0F3FCF7 /* Pods_Desafio_ConcreteTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF728D1C5A8DC694E1EC802CC12EBA6D /* Pods-Desafio Concrete-Desafio ConcreteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95A8C77FF811DEE652AC2C6C04E71B9 /* Build configuration list for PBXNativeTarget "Pods-Desafio Concrete-Desafio ConcreteUITests" */;
+			buildPhases = (
+				4E9D4F065CA334F751181F8D145E7481 /* Headers */,
+				E30F963F2484473BE04494A02F9261AB /* Sources */,
+				FD7A7CED8E09AF19582270E35FBBC641 /* Frameworks */,
+				1497DDAFC12FEC9A2BBCE906DEC53A93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F360E9A62A76E09F75CE64A2E4C758B /* PBXTargetDependency */,
+			);
+			name = "Pods-Desafio Concrete-Desafio ConcreteUITests";
+			productName = "Pods-Desafio Concrete-Desafio ConcreteUITests";
+			productReference = 2B4EE888A3C2AF9884A040D849DEBD15 /* Pods_Desafio_Concrete_Desafio_ConcreteUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD5459CDA9B1EEE723464D5992ED12B7 /* Pods-Desafio Concrete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F7B520FA153D7C6078DCCC2067715D1 /* Build configuration list for PBXNativeTarget "Pods-Desafio Concrete" */;
+			buildPhases = (
+				0007C3199928010F83E077B6F75CA948 /* Headers */,
+				CE4A8145A6B49E3FE14127702B8587B1 /* Sources */,
+				939010F7008D429B32ED4C363A3AB9F8 /* Frameworks */,
+				BB3398A258ACA681EAB39D73E027E582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E629595FA9B416512467F3BA15C6127D /* PBXTargetDependency */,
+			);
+			name = "Pods-Desafio Concrete";
+			productName = "Pods-Desafio Concrete";
+			productReference = BE6BB573B66C949CAFF8BBF20FB11B16 /* Pods_Desafio_Concrete.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9F52EB3AA2CF91392F6B690FC35B49F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD5459CDA9B1EEE723464D5992ED12B7 /* Pods-Desafio Concrete */,
+				BF728D1C5A8DC694E1EC802CC12EBA6D /* Pods-Desafio Concrete-Desafio ConcreteUITests */,
+				5A3074DCDBB05F532393F8F3940BCDFD /* Pods-Desafio ConcreteTests */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1497DDAFC12FEC9A2BBCE906DEC53A93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54C517464561B44495AEC1E45481E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB3398A258ACA681EAB39D73E027E582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4039E0215E676CB7FC488C1940772DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD649CC3BEAE129CC2E0A104EEAD74CE /* Pods-Desafio ConcreteTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4A8145A6B49E3FE14127702B8587B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9D0F74D01FC1EBD31B93ECF872DC66 /* Pods-Desafio Concrete-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E30F963F2484473BE04494A02F9261AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106B29097F88A307D85D08D71405CB5E /* Pods-Desafio Concrete-Desafio ConcreteUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BBBA297FCA7372DA5F32DAFCEFF3D34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Desafio Concrete";
+			target = FD5459CDA9B1EEE723464D5992ED12B7 /* Pods-Desafio Concrete */;
+			targetProxy = B227E8505A8149A783DB4AB0409FD0CF /* PBXContainerItemProxy */;
+		};
+		9F360E9A62A76E09F75CE64A2E4C758B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 829E4983C14FFC24D91455505CD2DCC8 /* PBXContainerItemProxy */;
+		};
+		E629595FA9B416512467F3BA15C6127D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 9C5A03DA8F3F14591E186FEBB0289B4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E4D31FEDA1170A10011905AF1A77B52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A0C45BE74EFE131E4B2A504651A5885 /* Pods-Desafio Concrete-Desafio ConcreteUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Desafio Concrete-Desafio ConcreteUITests/Pods-Desafio Concrete-Desafio ConcreteUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Desafio Concrete-Desafio ConcreteUITests/Pods-Desafio Concrete-Desafio ConcreteUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3AF2376C3E6911B12CAB5857525B89DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E136A5A59AC3E9F5723C92208FE39AA9 /* Pods-Desafio Concrete.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Desafio Concrete/Pods-Desafio Concrete-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Desafio Concrete/Pods-Desafio Concrete.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DDB44DF5168C0B0F3E7799FBA1DA0AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E29533B962238268DD86D11E2A1D1D1 /* Pods-Desafio Concrete.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Desafio Concrete/Pods-Desafio Concrete-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Desafio Concrete/Pods-Desafio Concrete.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84D7C4574E8F0F3095623F0E06F5B402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C4096602E522D954DA8B7D16031A0598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A75BF8B18D17E8B54EF4D3A19E094E /* Pods-Desafio ConcreteTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Desafio ConcreteTests/Pods-Desafio ConcreteTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Desafio ConcreteTests/Pods-Desafio ConcreteTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C6CFCA9DD4E90CD70E198A58A3391583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75823FA099C2AC2DAD110C10DF77D72E /* Pods-Desafio ConcreteTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Desafio ConcreteTests/Pods-Desafio ConcreteTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Desafio ConcreteTests/Pods-Desafio ConcreteTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB0524D9AE6DBCF8917518D1E635A1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4AAB2D44980705C0C11276FF73B232 /* Pods-Desafio Concrete-Desafio ConcreteUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Desafio Concrete-Desafio ConcreteUITests/Pods-Desafio Concrete-Desafio ConcreteUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Desafio Concrete-Desafio ConcreteUITests/Pods-Desafio Concrete-Desafio ConcreteUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DEED47E09AF743F48544C1C4FEADEF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6D3958A0D4237F4A740B74203B57D9 /* Build configuration list for PBXNativeTarget "Pods-Desafio ConcreteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4096602E522D954DA8B7D16031A0598 /* Debug */,
+				C6CFCA9DD4E90CD70E198A58A3391583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F7B520FA153D7C6078DCCC2067715D1 /* Build configuration list for PBXNativeTarget "Pods-Desafio Concrete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AF2376C3E6911B12CAB5857525B89DA /* Debug */,
+				5DDB44DF5168C0B0F3E7799FBA1DA0AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEED47E09AF743F48544C1C4FEADEF47 /* Debug */,
+				84D7C4574E8F0F3095623F0E06F5B402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F95A8C77FF811DEE652AC2C6C04E71B9 /* Build configuration list for PBXNativeTarget "Pods-Desafio Concrete-Desafio ConcreteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0524D9AE6DBCF8917518D1E635A1BF /* Debug */,
+				0E4D31FEDA1170A10011905AF1A77B52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Desafio_Concrete_Desafio_ConcreteUITests {
+  umbrella header "Pods-Desafio Concrete-Desafio ConcreteUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
